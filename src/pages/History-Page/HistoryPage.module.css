@@ -1,0 +1,24 @@
+.history-page__history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.history-page__list-item {
+  width: 100%;
+}
+
+.history-page__controls {
+  margin-top: 40px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.history-modal__highlights-container {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}

@@ -1,0 +1,29 @@
+@import url(../../../css/variables.css);
+
+.highlights-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 24px;
+  background-color: #ffffff;
+}
+
+.highlights-card__meaning {
+  font-size: var(--font-size-bigger-text-xl);
+  font-weight: 900;
+}
+
+.highlights-card__description {
+  font-size: 20px;
+}
+
+.highlights-card_default {
+  background-color: white;
+}
+
+.highlights-card_special {
+  background-color: var(--color-dark-bg);
+}

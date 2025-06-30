@@ -1,0 +1,29 @@
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal__modal-content {
+  box-sizing: border-box;
+  background: white;
+  padding: 40px;
+  border-radius: 45px;
+  width: 1000px;
+  position: relative;
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.modal__cloase-btn {
+  position: absolute;
+  top: 15%;
+  right: 20%;
+}

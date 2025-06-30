@@ -1,0 +1,1 @@
+export { HighlightsCardUI } from './HighlightsCard';

@@ -1,0 +1,47 @@
+@import url(../../css/variables.css);
+
+.analyst-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.analyst-page__controller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.analyst-page__bold-text {
+  font-weight: 900;
+}
+
+.analyst-page__highlights {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 10px;
+  column-gap: 40px;
+}
+
+.analyst-page__highlights_none {
+  height: calc(-637px + 100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-high-contrast-bg);
+  font-size: var(--font-size-bigger-text-xl);
+}
+
+.analyst-page__none-text {
+  width: min-content;
+  text-align: center;
+}
+
+.analyst-page__none-text_nowrap {
+  white-space: pre;
+}

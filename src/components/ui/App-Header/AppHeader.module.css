@@ -1,0 +1,39 @@
+@import url(../../../css/variables.css);
+
+.header {
+  background-color: transparent;
+}
+
+.header__row {
+  display: flex;
+  gap: 224px;
+  justify-content: space-between;
+}
+
+.header__meta-info {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  inline-size: 268px;
+  block-size: 59px;
+}
+
+.header__text {
+  font-size: var(--font-size-standart-text-m);
+}
+
+.header__short-description {
+  margin-inline-start: 40px;
+  padding: 7px;
+  background-color: var(--color-high-contrast-bg);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.header__top-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,35 @@
+@import url(../../../css/variables.css);
+
+.history-card {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.history-card__info-container {
+  flex: 1;
+  height: 70px;
+  padding: 0 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-high-contrast-bg);
+  border-radius: 40px;
+}
+
+.history-card__info-container_active {
+  cursor: pointer;
+}
+
+.history-card__info-chunck-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.history-card__info-chunck-container_no-active {
+  opacity: 0.35;
+}

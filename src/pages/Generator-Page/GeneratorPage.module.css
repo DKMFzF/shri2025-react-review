@@ -1,0 +1,14 @@
+@import url(../../css/variables.css);
+
+.generator-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.generator-page__controller-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

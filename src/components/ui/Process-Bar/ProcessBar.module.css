@@ -1,0 +1,33 @@
+@import url(../../../css/variables.css);
+
+.process-bar {
+  position: relative;
+  inline-size: 402px;
+  block-size: 70px;
+  background-color: var(--color-high-contrast-bg);
+  border-radius: 10px;
+}
+
+.process-bar::after {
+  content: '';
+  position: absolute;
+  block-size: 45px;
+  inline-size: 45px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 1s infinite linear;
+  border: 5px solid;
+  border-color: var(--color-start-move) #fff #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

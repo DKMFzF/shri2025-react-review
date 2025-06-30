@@ -1,0 +1,44 @@
+.button-delete {
+  padding: 0;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  inline-size: 70px;
+  block-size: 70px;
+}
+
+.button-delete_default {
+  border-radius: 10px;
+  background-color: rgba(32, 27, 16, 1);
+}
+
+.button-delete_default::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 50%;
+  inline-size: 32px;
+  block-size: 32px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./cross-icon.svg);
+  transform: translate(-50%, 57%);
+}
+
+.button-delete_trash {
+  border-radius: 20px;
+  background-color: white;
+}
+
+.button-delete_trash::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 50%;
+  inline-size: 24px;
+  block-size: 24px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./trashcan-icon.svg);
+  transform: translate(-50%, 100%);
+}

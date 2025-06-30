@@ -1,0 +1,36 @@
+@import url(../../../css/variables.css);
+
+.analyst-drag-and-drop__container {
+  padding-block: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--color-dark-bg);
+  border-radius: 40px;
+}
+
+.analyst-drag-and-drop__container {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.analyst-drag-and-drop__container_dragging {
+  background-color: var(--color-access);
+}
+
+.analyst-drag-and-drop__container_uploaded {
+  background-color: transparent;
+  border: 1px solid var(--font-color-default);
+}
+
+.analyst-drag-and-drop__container_error {
+  background-color: transparent;
+  border: 1px solid var(--color-error);
+}
+
+.analyst-drag-and-drop__file-input {
+  display: none;
+}

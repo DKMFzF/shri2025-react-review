@@ -1,0 +1,36 @@
+.status-content__controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-content__process-status {
+  padding: 0 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.status-content__process-status_deafult {
+  background-color: var(--color-high-contrast-bg);
+}
+
+.status-content__process-status_done {
+  background-color: var(--color-access);
+}
+
+.status-content__process-status_error {
+  background-color: var(--color-error);
+}
+
+.status-content__description-text {
+  margin-top: 7px;
+  text-align: center;
+}
+
+.status-content__description-text_error {
+  color: var(--color-error);
+}

@@ -1,0 +1,9 @@
+.common-section {
+  height: 100%;
+}
+
+.common-section__wrapper-section {
+  height: 100%;
+  padding-top: 80px;
+  box-sizing: border-box;
+}

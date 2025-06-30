@@ -1,0 +1,1 @@
+export { CommonPageUI } from './CommonPage';

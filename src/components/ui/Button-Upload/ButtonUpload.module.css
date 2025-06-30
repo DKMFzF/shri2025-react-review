@@ -1,0 +1,10 @@
+@import url(../../../css/variables.css);
+
+.button-upload {
+  padding: 16px 50px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: var(--font-size-standart-text-l);
+  cursor: pointer;
+}

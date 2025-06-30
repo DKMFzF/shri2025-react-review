@@ -1,0 +1,36 @@
+:root {
+  --active-nav-link: translateX(0);
+}
+
+.header__nav-link-wrapper {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.header__nav-link-wrapper::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  inline-size: 100%;
+  block-size: 2px;
+  background-color: black;
+  transform: translateX(-100%);
+  transition: transform 0.2s ease-in-out;
+}
+
+.header__nav-link-wrapper:hover::before {
+  transform: var(--active-nav-link);
+}
+
+.header__nav-link-wrapper_active {
+  cursor: default;
+}
+
+.header__nav-link-wrapper_active::before {
+  transform: var(--active-nav-link);
+}
